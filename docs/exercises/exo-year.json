@@ -1,0 +1,28 @@
+[
+  {
+    "learnocaml_version": "2",
+    "kind": "exercise",
+    "title": "Exercice sur le filtrage d'entiers",
+    "short_description": "Exercice extrait du TP ILU-1 de l'UT3",
+    "stars": 1,
+    "focus": [
+      "pattern matching"
+    ]
+  },
+  {
+    "id": "exo-year",
+    "prelude": "(* Prélude - pas besoin de recopier ce code *)\nlet bissextile annee =\n  annee mod 4 = 0 && annee mod 100 <> 0 || annee mod 400 = 0\n",
+    "template": "",
+    "descr": [
+      [
+        "",
+        "<h1 id=\"Filtrage-par-motifs-pattern-matching-sur-les-entiers\">Filtrage par motifs (<em>pattern-matching</em>) sur les entiers</h1>\n\n<p>On fournit la fonction <code>bissextile</code>, prenant en argument une année et\nretournant un booléen indiquant si l’année est bissextile ou non\n(année bissextile ⇔ divisible par 4 et non divisible par 100, à moins\nqu’elle soit divisible par 400).</p>\n<p>Écrire la fonction <code>nbjour</code> de type <code>int -&gt; int -&gt; int</code>, prenant en\nargument un numéro de mois (entier entre <code>1</code> et <code>12</code>, on levèra une\nexception en cas de mois invalide) et une année, et renvoyant le\nnombre de jours de ce mois dans cette année-là.</p>\n"
+      ]
+    ],
+    "prepare": "",
+    "test": "lr2VgL7304Zee7qsutNQd7YPTSBUWEsXJ/NQWFmGrxkucRNw4lvXG72haNPmr+/q9W+UY9/nfre9Cc/1eWLEq/dj3UBgEJQQ7329eZA0ZO2vTxNUp+RKqCROFtFZ9TOUWgqLeMsPBffsNHK2ZTFIsuX16A4PWBWlwDZ2z2r3emjMw5CfxbxgqDbB4KTcdAbj3EF4XAEJA6/eAAEBCeyfjCvvW8kH1MwH+H7aqKaubCDWJYRqHyK8eIs4jUXy3MPBBGNME8ZZnUXjsT7tmUhiw5h2j5OUgo8m1ydWjEKRKxgAkZXc55gYbJcgOgAOY5jwfx7OTftLF+z9EpqM6ZT9FgjiEKvphC89Yckyh0SyHbMoBEl4VFoXGS61WFgVxb8CMwBBPVV56QtjKazjs+bz1gBLlSh1NeLtxV34ROpufLhcN5cPY9TUXtmc2t3EAGTn3USVCZTcEr6kG/8YFt6npVv0lPTfTo+dlEdb/RwaHKPv7MlIkQtYsfQEAsiL5bxckP/EkgLvKKUqzWj9vuoRhT1IA5IRVk6ULAxRHozTfM5er9NmFnvUC7Ff6fncbbMxm8TANnZnr4qqCg6Jx7yiwEMiAFEuQhZOl+QmuMkOI0ZoBcsP/4YCfEMZXgwMiGeNQJHTkcBPFumYWHKAGmdFrfCI8ADURRX9wEBS7Y+O/C31s6ChvPtfuCa1KOjapob7YlFNLBFkUExcH/oUQLy58zelQWRV01V4YX8NsumfhiyNNNUoMF8vxvF4jXG7RcesF86PEDIQ89i1ryb56Akfd8oOcVXAt/GrLE1GlULvMwcA7tzAjWUddJV5OcsGMVXQdI8XAcVlRbmiGAD2nbfUFgjiU4yt/Xq9Y25maZOvVb15C9lPX/k1Z76DRRVpj37O0qRBNVo5k9FZ3KiX/aq8IMRHlTpiOfXtxV37E2ZrmbwCNGQ3LFPSQt+fZ3bEGjSRP5uQTdPcEaZmAET+Qrpr6BH9/Lb+AEPrlDl5bUdoN2A=",
+    "solution": "bhZWOq0nstmTpqB5AQmC2AdlQFlRXVpZJR29YQOghtER9AkhAWCVHT9ibPfcsvow/mTVMSliufKd229RejuDaQxjTohuQhZ1pKAiohQAOPJ5Tt/PluMNqC/VSs6V9XfEWJrGa1F4FrDQJSyTQ7cIf3G76E02Cp3wvVNMpIjOsyS5ioMRe3fxnw+DwChpO1JJKpQDTAMAGVp/QkQVAvHCnDqzQS/VPNsJ1nSss0jyhmHVNJ/6YjHf7KF46RH2Kgv5QyBDGCgHmkaBcHj8o9xuwnNMqp==",
+    "max-score": 24
+  },
+  null
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "learnocaml_version": "2",
+    "kind": "exercise",
+    "title": "Exercice sur les définitions globales et locales",
+    "short_description": "Exercice extrait du MOOC OCaml",
+    "stars": 1,
+    "focus": [
+      "global and local definitions"
+    ]
+  },
+  {
+    "id": "exo-defs",
+    "prelude": "let x = Random.int 9 + 1 (* pas 0 *)\n\n(* val mot : générée aussi, mais code caché *)\n",
+    "template": "let x_pow_8 =\n  \"à compléter...\"\n\nlet phrase =\n  \"à compléter...\"\n",
+    "descr": [
+      [
+        "",
+        "<h1 id=\"D-finition-globales-et-locales\">Définition globales et locales</h1>\n\n<p>(<em>Exercice extrait du MOOC OCaml</em>)</p>\n<p><strong>1.</strong> On suppose qu&#39;une expression <code>x</code> est prédéfinie, de type <code>int</code>.</p>\n<p>Définir une expression <code>x_pow_8</code> qui utilise trois multiplications\npour calculer <code>x</code> élevé à la puisse <code>8</code>. La seule fonction autorisée\ndans les calculs est l&#39;opérateur <code>( * )</code>.</p>\n<p><strong>Indication:</strong> utilisez des définitions locales.</p>\n<p><strong>2.</strong> On suppose qu&#39;une expression <code>mot</code> est prédéfinie, de type <code>string</code>.</p>\n<p>Définir une expression <code>phrase</code> utilisant cinq concaténations <code>(^)</code>\npour créer une chaîne contenant neuf fois le contenu de <code>mot</code>, séparé\npar des virgules <code>,</code>.</p>\n<p><strong>Indication:</strong> ici encore, utiliser des définitions locales.</p>\n"
+      ]
+    ],
+    "prepare": "Bb5FqB3VuBJRZf034tum+7VBXWZ2XElZYRA0FRzgtM67r/pcHCfYDXMjebHxse2moCbUJjNhfqrL2ZVUc7qZaAFgTBIoEJtLjeEgeZQvKL1/TwkPqeNYqGRVTc649WqKAdy+tgIMW4KTZmqITj/I6PDRu5uEXoX9fo/M/MqkvDkJh6eiWc4fRoc8rZEmnKElYlMPGUNJGo/nEBNXXP75n8r6QTdXIY9U1X8ol0Pm9WGK1Ntn0Tr9cvFKlDt=",
+    "test": "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",
+    "solution": "+WxTEEgP8nvTeYLcVxiP1jMrL5k1VR9TYDxeWVXsfJBEf5gvKy80Q//hu3DhubNhrjT0KBo5fub6Bc90xyOXcpp1A/ErV2ILlYtqxsNa1PJtTtlp94pGpngVHN5+eyLLFbTIaZ9BPLmQ0ESDAGYieqCC6BebWkubjk/zxh4LxDloKEE7U/a22PmszLFbsvBHIEFQTFoWTR9XEBMZEuz666GfQXEQNNtIYX7puOvhhkeEYc2aK8mAxvETyEW74IObXmZVQjJr6/n0cD+8u5B9q8Q+/R8Ztlnd+lEWw9LGNxQJk4DclB5OqKhl2wp0Gp==",
+    "max-score": 4
+  },
+  null
+]

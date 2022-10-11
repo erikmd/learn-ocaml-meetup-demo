@@ -1,0 +1,39 @@
+[
+  {
+    "learnocaml_version": "2",
+    "groups": {
+      "demo": {
+        "title": "Demo Learn-OCaml",
+        "exercises": [
+          [
+            "exo-defs",
+            {
+              "learnocaml_version": "2",
+              "kind": "exercise",
+              "title": "Exercice sur les définitions globales et locales",
+              "short_description": "Exercice extrait du MOOC OCaml",
+              "stars": 1,
+              "focus": [
+                "global and local definitions"
+              ]
+            }
+          ],
+          [
+            "exo-year",
+            {
+              "learnocaml_version": "2",
+              "kind": "exercise",
+              "title": "Exercice sur le filtrage d'entiers",
+              "short_description": "Exercice extrait du TP ILU-1 de l'UT3",
+              "stars": 1,
+              "focus": [
+                "pattern matching"
+              ]
+            }
+          ]
+        ]
+      }
+    }
+  },
+  {}
+]
